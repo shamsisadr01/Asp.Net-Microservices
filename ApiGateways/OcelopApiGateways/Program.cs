@@ -20,7 +20,7 @@ builder.Services
     .AddOcelot(builder.Configuration)
     .AddCacheManager(x => x.WithDictionaryHandle());
 
-builder.Services.AddOcelot();
+//builder.Services.AddOcelot();
 
 var app = builder.Build();
 

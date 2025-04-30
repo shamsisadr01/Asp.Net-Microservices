@@ -1,0 +1,6 @@
+@Shopping.Aggragtor_HostAddress = http://localhost:5101
+
+GET {{Shopping.Aggragtor_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
