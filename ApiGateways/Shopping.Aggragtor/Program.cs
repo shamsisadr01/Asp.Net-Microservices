@@ -1,4 +1,5 @@
 using Shopping.Aggragtor.Services;
+using Shopping.Aggregator.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
